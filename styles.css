@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+
+:root{
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --azul-botao: #167BF7;
+    --verde-botao: #109010;
+    --fundo-cor: #00030C;
+    --fonte-principal: 'Inter';
+}
+
+body{
+    background-color: var(--fundo-cor);
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 42px;
+    font-weight: 400;
+}
+
+strong {
+    color: var(--azul-botao);
+}
+
+green {
+    color: var(--verde-botao);
+}
+
+.container__header{
+    text-align: center;
+    font-size: 32px;
+    background-color: black;
+}
+
+.container__titulo{
+    margin-top: 2em;
+    text-align: center;
+}
+
+
+.dispositivos__lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 5em;
+    margin-right: 2em;
+    margin-left: 4em;
+}
+.dispositivos{
+    text-align: center;
+}
+
+.dispositivos__titulos{
+    font-size: 48px;
+    color: var(--branco-principal);
+}
+
+.lista__item{
+    font-size: 32px;
+    color: var(--branco-principal);
+    size: 1em;
+} 
